@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuestas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <body>
+
+        <main class="container-fluid vh-100">
+            <div class="row vh-100">
+                <!-- Sidebar -->
+                <div class="col-md-4 col-lg-3 d-flex flex-column flex-shrink-0 p-3 text-bg-dark position-sticky" >
+                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <i class="bi bi-clipboard-data fs-5 p-2"></i>                    
+                        <span class="fs-4">Sistema de Encuestas</span>
+                    </a>
+                    <hr>
+                    <ul class="nav nav-pills flex-column mb-auto">
+                        <li>
+                            <a href="#" class="nav-link active text-white" data-url="inicio.html">
+                                <i class="bi bi-house"></i>                            
+                                Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-white" data-url="centro.html">
+                                <i class="bi bi-hospital"></i>                            
+                                Mi centro de atención
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-white" data-url="encuesta.html">
+                                <i class="bi bi-pencil-square"></i>
+                                Completar encuesta
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="dropdown">
+                        <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person-circle"> </i>  
+                            <strong>Paciente</strong>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                            <li><a class="dropdown-item" href="#">New project...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Contenido principal -->
+                <section class="col-md-8 col-lg-9 d-flex flex-column mh-100">
+                    <div class="p-4 flex-grow-1 overflow-auto" id="main-content">
+
+                    </div>
+                </section>
+            </div>
+        </main>
+    
+        <!-- JavaScript -->
+        <script src="router.js"></script>
+        <script src="formulario.js"></script>
+        <script src="mapa.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+ 
+    </body>
+</html>
