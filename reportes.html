@@ -1,0 +1,43 @@
+<div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+    <div class="col p-4 d-flex flex-column position-static">
+      <h3 class="mb-3">Reportes</h3>
+      <p class="card-text">Selecciona una zona para ver los centros </p>
+
+    </div>
+    <div class="col-auto d-none d-lg-block p-2">
+        
+        <img src="static/reporte.png" alt="Descripción de la imagen" width="100" height="100" class="bd-placeholder-img p-2">
+    
+    </div>
+
+  </div>
+
+  <div class="pb-4">
+    <label class="form-label" for="zona-select">Seleccionar zona:</label>
+    <select id="zona-select" class="form-select">
+        <option value="">Seleccione una zona</option>
+    </select>
+</div>
+
+  <div id="map" style="height: 300px; width: 100%" ></div>
+
+  <div class="card mt-4">
+    <h6 class="card-header p-3">Lista respuestas por centro</h6>
+    <div class="card-body">
+        <table id="pacientes-table" class="table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Día de atención</th>
+                    <th>Mail</th>
+                </tr>
+            </thead>
+            <tbody id="pacientes-body">
+                <tr>
+                    <td colspan="8" style="text-align: center;">Seleccione un centro para ver los pacientes</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+

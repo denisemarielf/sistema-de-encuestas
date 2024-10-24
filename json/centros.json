@@ -1,0 +1,138 @@
+[
+    {
+        "zona": "San Miguel",
+        "centros": [
+            {
+                "nombre": "Hospital Municipal",
+                "coordenadas": [-34.543740, -58.712209],
+                "descripcion": "Dr. Raúl F. Larcade.",
+                "direccion": "Av. Libertador 1234, Ciudad.",
+                "telefono": "+54 11 1234-5678",
+                "pacientes": [
+                    {"nombre": "Juana", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
+                    {"nombre": "Pedro García", "edad": 34, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
+                ]
+            },
+            {
+                "nombre": "Centro de Salud Norte",
+                "coordenadas": [-34.550000, -58.720000],
+                "descripcion": "Atención médica integral.",
+                "direccion": "Calle Ejemplo 456, Ciudad.",
+                "telefono": "+54 11 2345-6789",
+                "pacientes": [
+                    {"nombre": "María López", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
+                    {"nombre": "Pedro García", "edad": 34, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
+                ]
+            }
+        ]
+    },
+    {
+        "zona": "Sur",
+        "centros": [
+            {
+                "nombre": "Clínica San José",
+                "coordenadas": [-34.540000, -58.730000],
+                "descripcion": "Servicios de emergencia.",
+                "direccion": "Calle Salud 789, Ciudad.",
+                "telefono": "+54 11 3456-7890",
+                "pacientes": [
+                    {"nombre": "Juan", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
+                    {"nombre": "Pedro García", "edad": 34, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
+                ]
+            },
+            {
+                "nombre": "Centro de Salud Sur",
+                "coordenadas": [-34.560000, -58.740000],
+                "descripcion": "Atención primaria de salud.",
+                "direccion": "Av. Principal 678, Ciudad.",
+                "telefono": "+54 11 5678-9012",
+                "pacientes": [
+                    {"nombre": "Laura Fernández", "edad": 30, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-23", "motivo": "Chequeo general"},
+                    {"nombre": "Carlos Pérez", "edad": 40, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20", "motivo": "Control de presión"}
+                ]
+            }
+        ]
+    },
+    {
+        "zona": "Este",
+        "centros": [
+            {
+                "nombre": "Hospital Central",
+                "coordenadas": [-34.548000, -58.715000],
+                "descripcion": "Centro especializado en salud pública.",
+                "direccion": "Av. de Mayo 1010, Ciudad.",
+                "telefono": "+54 11 4567-8901",
+                "pacientes": [
+                    {"nombre": "Denise", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
+                    {"nombre": "Pedro García", "edad": 34, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
+                ]
+            },
+            {
+                "nombre": "Centro de Salud Este",
+                "coordenadas": [-34.555000, -58.710000],
+                "descripcion": "Atención ambulatoria.",
+                "direccion": "Calle Este 101, Ciudad.",
+                "telefono": "+54 11 6789-0123",
+                "pacientes": [
+                    {"nombre": "Ana López", "edad": 25, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Consulta odontológica"},
+                    {"nombre": "Luis Romero", "edad": 50, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-19", "motivo": "Chequeo general"}
+                ]
+            }
+        ]
+    },
+    {
+        "zona": "Oeste",
+        "centros": [
+            {
+                "nombre": "Centro Médico Oeste",
+                "coordenadas": [-34.565000, -58.725000],
+                "descripcion": "Servicios médicos especializados.",
+                "direccion": "Calle Oeste 202, Ciudad.",
+                "telefono": "+54 11 7890-1234",
+                "pacientes": [
+                    {"nombre": "Marta González", "edad": 45, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20", "motivo": "Chequeo general"},
+                    {"nombre": "Lucas Ruiz", "edad": 35, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
+                ]
+            },
+            {
+                "nombre": "Centro de Salud Oeste",
+                "coordenadas": [-34.570000, -58.735000],
+                "descripcion": "Atención de urgencias.",
+                "direccion": "Calle Oeste 303, Ciudad.",
+                "telefono": "+54 11 8901-2345",
+                "pacientes": [
+                    {"nombre": "Paula Sánchez", "edad": 29, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-18", "motivo": "Consulta médica"},
+                    {"nombre": "Roberto Díaz", "edad": 38, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-19", "motivo": "Chequeo general"}
+                ]
+            }
+        ]
+    },
+    {
+        "zona": "Centro",
+        "centros": [
+            {
+                "nombre": "Centro Médico Central",
+                "coordenadas": [-34.558000, -58.725000],
+                "descripcion": "Centro médico especializado.",
+                "direccion": "Calle Central 456, Ciudad.",
+                "telefono": "+54 11 0123-4567",
+                "pacientes": [
+                    {"nombre": "Clara Medina", "edad": 32, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-23", "motivo": "Consulta médica"},
+                    {"nombre": "Diego Torres", "edad": 29, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Chequeo general"}
+                ]
+            },
+            {
+                "nombre": "Clínica Central",
+                "coordenadas": [-34.563000, -58.730000],
+                "descripcion": "Clínica privada.",
+                "direccion": "Calle Central 789, Ciudad.",
+                "telefono": "+54 11 2345-6789",
+                "pacientes": [
+                    {"nombre": "Manuel Ortega", "edad": 50, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Control de presión"},
+                    {"nombre": "Sofía Morales", "edad": 40, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20", "motivo": "Consulta médica"}
+                ]
+            }
+        ]
+    }
+]
+
