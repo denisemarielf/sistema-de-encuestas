@@ -65,5 +65,6 @@ function agregarMapaZona() {
             button.disabled = false; // Rehabilitar el botón si es necesario
         }, 2000); // Simula un retraso de 2 segundos para el envío
     });
+
 }
 

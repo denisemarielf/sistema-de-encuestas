@@ -48,18 +48,29 @@ function selectorZonas(){
                 selectedZona.centros.forEach(centro => {
                     var marker = L.marker(centro.coordenadas).addTo(map);
                     marker.bindPopup(`<b>${centro.nombre}</b>`);
-
-                    // Evento al hacer clic en el marcador para mostrar la tabla de pacientes
+                
+                    // Evento al hacer clic en el marcador para mostrar la tabla de respuestas
                     marker.on('click', function() {
                         const pacientesBody = document.getElementById('pacientes-body');
                         pacientesBody.innerHTML = ''; // Limpiar tabla
-
-                        centro.pacientes.forEach(paciente => {
+                    
+                    // Verificar si hay evaluaciones
+                    if (centro.evaluaciones && centro.evaluaciones.length > 0) {
+                        centro.evaluaciones.forEach((evaluacion, i) => {
                             const row = document.createElement('tr');
                             row.innerHTML = `
-                                <td>${paciente.nombre}</td>
-                                <td>${paciente.fechaConsulta}</td>
-                                <td>${paciente.mail}</td>
+                                <td>Respuesta ${i + 1}</td>
+                                <td>${evaluacion.organizacion}</td>
+                                <td>${evaluacion.tiempo_espera}</td>
+                                <td>${evaluacion.atencion_personal}</td>
+                                <td>${evaluacion.limpieza}</td>
+                                <td>${evaluacion.informacion}</td>
+                                <td>${evaluacion.medicamentos}</td>
+                                <td>${evaluacion.comodidad}</td>
+                                <td>${evaluacion.tiempo_sala}</td>
+                                <td>${evaluacion.atencion_registro}</td>
+                                <td>${evaluacion.satisfaccion_general}</td>
+                                <td>${evaluacion.comentario || "-"}</td>
                             `;
                             pacientesBody.appendChild(row);
                         });
@@ -67,6 +78,12 @@ function selectorZonas(){
                         // Mostrar la tabla
                         const pacientesTable = document.getElementById('pacientes-table');
                         pacientesTable.style.display = 'table';
+                    } else {
+                        // Mostrar mensaje de no hay respuestas
+                        const noResponsesMessage = document.createElement('tr');
+                        noResponsesMessage.innerHTML = `<td colspan="12">No hay respuestas disponibles para este centro de salud.</td>`;
+                        pacientesBody.appendChild(noResponsesMessage);
+                    }
                     });
                 });
 

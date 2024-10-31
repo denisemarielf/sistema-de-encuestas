@@ -8,5 +8,6 @@ function agregarMapa() {
         maxZoom: 100,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
+    
 }
 

@@ -11,6 +11,36 @@
                 "pacientes": [
                     {"nombre": "Juana", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
                     {"nombre": "Pedro García", "edad": 34, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
+                ],
+                "evaluaciones": [
+                    {
+                        "respuesta_id": 1,
+                        "organizacion": "8",
+                        "tiempo_espera": "4",
+                        "atencion_personal": "9",
+                        "limpieza": "7",
+                        "informacion": "6",
+                        "medicamentos": "5",
+                        "comodidad": "8",
+                        "tiempo_sala": "5",
+                        "atencion_registro": "9",
+                        "satisfaccion_general": "8",
+                        "comentario": "Atención excelente, pero el tiempo de espera podría mejorar."
+                    },
+                    {
+                        "respuesta_id": 2,
+                        "organizacion": "7",
+                        "tiempo_espera": "6",
+                        "atencion_personal": "8",
+                        "limpieza": "8",
+                        "informacion": "7",
+                        "medicamentos": "5",
+                        "comodidad": "6",
+                        "tiempo_sala": "6",
+                        "atencion_registro": "8",
+                        "satisfaccion_general": "7",
+                        "comentario": "El personal muy amable, pero el proceso de registro es lento."
+                    }
                 ]
             },
             {
@@ -21,7 +51,37 @@
                 "telefono": "+54 11 2345-6789",
                 "pacientes": [
                     {"nombre": "María López", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
-                    {"nombre": "Pedro García", "edad": 34, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
+                    {"nombre": "Luis Gómez", "edad": 40, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Chequeo general"}
+                ],
+                "evaluaciones": [
+                    {
+                        "respuesta_id": 1,
+                        "organizacion": "6",
+                        "tiempo_espera": "7",
+                        "atencion_personal": "8",
+                        "limpieza": "9",
+                        "informacion": "7",
+                        "medicamentos": "6",
+                        "comodidad": "8",
+                        "tiempo_sala": "5",
+                        "atencion_registro": "7",
+                        "satisfaccion_general": "8",
+                        "comentario": "Muy buena limpieza, atención rápida."
+                    },
+                    {
+                        "respuesta_id": 2,
+                        "organizacion": "8",
+                        "tiempo_espera": "4",
+                        "atencion_personal": "9",
+                        "limpieza": "7",
+                        "informacion": "8",
+                        "medicamentos": "5",
+                        "comodidad": "7",
+                        "tiempo_sala": "5",
+                        "atencion_registro": "9",
+                        "satisfaccion_general": "9",
+                        "comentario": "Gran atención, volveré."
+                    }
                 ]
             }
         ]
@@ -37,7 +97,37 @@
                 "telefono": "+54 11 3456-7890",
                 "pacientes": [
                     {"nombre": "Juan", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
-                    {"nombre": "Pedro García", "edad": 34, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
+                    {"nombre": "Carlos Pérez", "edad": 40, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20", "motivo": "Control de presión"}
+                ],
+                "evaluaciones": [
+                    {
+                        "respuesta_id": 1,
+                        "organizacion": "7",
+                        "tiempo_espera": "6",
+                        "atencion_personal": "8",
+                        "limpieza": "8",
+                        "informacion": "7",
+                        "medicamentos": "5",
+                        "comodidad": "6",
+                        "tiempo_sala": "5",
+                        "atencion_registro": "7",
+                        "satisfaccion_general": "8",
+                        "comentario": "El servicio de urgencias fue rápido y efectivo."
+                    },
+                    {
+                        "respuesta_id": 2,
+                        "organizacion": "9",
+                        "tiempo_espera": "5",
+                        "atencion_personal": "9",
+                        "limpieza": "6",
+                        "informacion": "8",
+                        "medicamentos": "6",
+                        "comodidad": "7",
+                        "tiempo_sala": "4",
+                        "atencion_registro": "8",
+                        "satisfaccion_general": "9",
+                        "comentario": "Atención impecable, gracias."
+                    }
                 ]
             },
             {
@@ -48,7 +138,37 @@
                 "telefono": "+54 11 5678-9012",
                 "pacientes": [
                     {"nombre": "Laura Fernández", "edad": 30, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-23", "motivo": "Chequeo general"},
-                    {"nombre": "Carlos Pérez", "edad": 40, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20", "motivo": "Control de presión"}
+                    {"nombre": "Sofía Morales", "edad": 45, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-19", "motivo": "Control de diabetes"}
+                ],
+                "evaluaciones": [
+                    {
+                        "respuesta_id": 1,
+                        "organizacion": "8",
+                        "tiempo_espera": "6",
+                        "atencion_personal": "7",
+                        "limpieza": "6",
+                        "informacion": "7",
+                        "medicamentos": "5",
+                        "comodidad": "6",
+                        "tiempo_sala": "7",
+                        "atencion_registro": "8",
+                        "satisfaccion_general": "8",
+                        "comentario": "La atención es buena, aunque deberían mejorar la limpieza."
+                    },
+                    {
+                        "respuesta_id": 2,
+                        "organizacion": "7",
+                        "tiempo_espera": "5",
+                        "atencion_personal": "9",
+                        "limpieza": "8",
+                        "informacion": "8",
+                        "medicamentos": "6",
+                        "comodidad": "7",
+                        "tiempo_sala": "5",
+                        "atencion_registro": "9",
+                        "satisfaccion_general": "9",
+                        "comentario": "Todo muy bien, excepto el tiempo de espera."
+                    }
                 ]
             }
         ]
@@ -64,75 +184,53 @@
                 "telefono": "+54 11 4567-8901",
                 "pacientes": [
                     {"nombre": "Denise", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
-                    {"nombre": "Pedro García", "edad": 34, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
+                    {"nombre": "Roberto Díaz", "edad": 38, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20", "motivo": "Chequeo general"}
+                ],
+                "evaluaciones": [
+                    {
+                        "respuesta_id": 1,
+                        "organizacion": "7",
+                        "tiempo_espera": "5",
+                        "atencion_personal": "9",
+                        "limpieza": "8",
+                        "informacion": "7",
+                        "medicamentos": "6",
+                        "comodidad": "8",
+                        "tiempo_sala": "5",
+                        "atencion_registro": "8",
+                        "satisfaccion_general": "8",
+                        "comentario": "Excelente atención, pero el tiempo de espera fue largo."
+                    },
+                    {
+                        "respuesta_id": 2,
+                        "organizacion": "9",
+                        "tiempo_espera": "3",
+                        "atencion_personal": "8",
+                        "limpieza": "7",
+                        "informacion": "8",
+                        "medicamentos": "5",
+                        "comodidad": "7",
+                        "tiempo_sala": "6",
+                        "atencion_registro": "9",
+                        "satisfaccion_general": "8",
+                        "comentario": "Todo muy bien, el personal es muy atento."
+                    }
                 ]
             },
             {
-                "nombre": "Centro de Salud Este",
-                "coordenadas": [-34.555000, -58.710000],
-                "descripcion": "Atención ambulatoria.",
-                "direccion": "Calle Este 101, Ciudad.",
+                "nombre": "Policlínico del Este",
+                "coordenadas": [-34.553000, -58.711000],
+                "descripcion": "Centro de atención médica integral.",
+                "direccion": "Calle Ejemplo 123, Ciudad.",
                 "telefono": "+54 11 6789-0123",
                 "pacientes": [
-                    {"nombre": "Ana López", "edad": 25, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Consulta odontológica"},
-                    {"nombre": "Luis Romero", "edad": 50, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-19", "motivo": "Chequeo general"}
-                ]
-            }
-        ]
-    },
-    {
-        "zona": "Oeste",
-        "centros": [
-            {
-                "nombre": "Centro Médico Oeste",
-                "coordenadas": [-34.565000, -58.725000],
-                "descripcion": "Servicios médicos especializados.",
-                "direccion": "Calle Oeste 202, Ciudad.",
-                "telefono": "+54 11 7890-1234",
-                "pacientes": [
-                    {"nombre": "Marta González", "edad": 45, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20", "motivo": "Chequeo general"},
-                    {"nombre": "Lucas Ruiz", "edad": 35, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
-                ]
-            },
-            {
-                "nombre": "Centro de Salud Oeste",
-                "coordenadas": [-34.570000, -58.735000],
-                "descripcion": "Atención de urgencias.",
-                "direccion": "Calle Oeste 303, Ciudad.",
-                "telefono": "+54 11 8901-2345",
-                "pacientes": [
-                    {"nombre": "Paula Sánchez", "edad": 29, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-18", "motivo": "Consulta médica"},
-                    {"nombre": "Roberto Díaz", "edad": 38, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-19", "motivo": "Chequeo general"}
-                ]
-            }
-        ]
-    },
-    {
-        "zona": "Centro",
-        "centros": [
-            {
-                "nombre": "Centro Médico Central",
-                "coordenadas": [-34.558000, -58.725000],
-                "descripcion": "Centro médico especializado.",
-                "direccion": "Calle Central 456, Ciudad.",
-                "telefono": "+54 11 0123-4567",
-                "pacientes": [
-                    {"nombre": "Clara Medina", "edad": 32, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-23", "motivo": "Consulta médica"},
-                    {"nombre": "Diego Torres", "edad": 29, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Chequeo general"}
-                ]
-            },
-            {
-                "nombre": "Clínica Central",
-                "coordenadas": [-34.563000, -58.730000],
-                "descripcion": "Clínica privada.",
-                "direccion": "Calle Central 789, Ciudad.",
-                "telefono": "+54 11 2345-6789",
-                "pacientes": [
-                    {"nombre": "Manuel Ortega", "edad": 50, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Control de presión"},
-                    {"nombre": "Sofía Morales", "edad": 40, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20", "motivo": "Consulta médica"}
+                    {"nombre": "Victoria Cruz", "edad": 35, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-23", "motivo": "Consulta médica"},
+                    {"nombre": "María Juárez", "edad": 60, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Chequeo de rutina"}
+                ],
+                "evaluaciones": [
+
                 ]
             }
         ]
     }
 ]
-
