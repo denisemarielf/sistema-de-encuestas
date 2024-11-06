@@ -3,6 +3,8 @@
       <h3 class="mb-3">Atención</h3>
       <p class="card-text">Te atendiste en: Hospital Municipal Raúl F. Larcade </p>
       <div class="mb-1 text-body-secondary">Direccion: Av. Pte. J. D. Perón 2311, San Miguel</div>
+      <div class="mb-1 text-body-secondary">Teléfono: +54 11 1234-5678</div>
+
     </div>
     <div class="col-auto d-none d-lg-block">
         
@@ -12,5 +14,22 @@
 
   </div>
 
-  <div id="map" style="height: 300px; width: 100%" ></div>
+<button id="openModalBtn" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mapModal">
+  Ver ubicación del centro
+</button>
+
+<div class="modal fade" id="mapModal" tabindex="-1" aria-labelledby="mapModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="mapModalLabel">Ubicación del Centro</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="map" style="height: 400px; width: 100%;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 

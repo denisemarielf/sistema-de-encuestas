@@ -3,9 +3,7 @@
       <h3 class="mb-3">Mi Zona: San Miguel</h3>
       <p class="card-text">Centros de salud</p>
       <p class="card-text">Fecha de cierre: 30/11/2024</p>
-      <div class="mb-1 text-body-secondary">
-        <button id="enviar-btn" class="btn btn-primary align-self-center">Enviar recordatorio</button>
-      </div>
+
     </div>
     <div class="col-auto d-none d-lg-block">
         
@@ -18,7 +16,11 @@
   <div id="map" style="height: 300px; width: 100%" ></div>
 
   <div class="card mt-4">
-    <h6 class="card-header p-3">Pacientes que aún no completaron la encuesta</h6>
+    <div class="card-header p-3 d-flex justify-content-between align-items-center">
+        <h6 >Pacientes que aún no completaron la encuesta</h6>
+        <button id="enviar-btn" class="btn btn-primary align-self-center">Enviar recordatorio</button>
+    </div>
+    
     <div class="card-body">
         <table id="pacientes-table" class="table">
             <thead>

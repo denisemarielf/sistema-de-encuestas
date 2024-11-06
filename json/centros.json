@@ -9,8 +9,8 @@
                 "direccion": "Av. Libertador 1234, Ciudad.",
                 "telefono": "+54 11 1234-5678",
                 "pacientes": [
-                    {"nombre": "Juana", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
-                    {"nombre": "Pedro García", "edad": 34, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Consulta médica"}
+                    {"nombre": "Juana", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22"},
+                    {"nombre": "Pedro García", "edad": 34, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21"}
                 ],
                 "evaluaciones": [
                     {
@@ -50,8 +50,8 @@
                 "direccion": "Calle Ejemplo 456, Ciudad.",
                 "telefono": "+54 11 2345-6789",
                 "pacientes": [
-                    {"nombre": "María López", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
-                    {"nombre": "Luis Gómez", "edad": 40, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Chequeo general"}
+                    {"nombre": "María López", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22"},
+                    {"nombre": "Luis Gómez", "edad": 40, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21"}
                 ],
                 "evaluaciones": [
                     {
@@ -96,8 +96,8 @@
                 "direccion": "Calle Salud 789, Ciudad.",
                 "telefono": "+54 11 3456-7890",
                 "pacientes": [
-                    {"nombre": "Juan", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
-                    {"nombre": "Carlos Pérez", "edad": 40, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20", "motivo": "Control de presión"}
+                    {"nombre": "Juan", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22"},
+                    {"nombre": "Carlos Pérez", "edad": 40, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20"}
                 ],
                 "evaluaciones": [
                     {
@@ -112,7 +112,7 @@
                         "tiempo_sala": "5",
                         "atencion_registro": "7",
                         "satisfaccion_general": "8",
-                        "comentario": "El servicio de urgencias fue rápido y efectivo."
+                        "comentario": "La aplicación del medicamento fue rápida y efectiva."
                     },
                     {
                         "respuesta_id": 2,
@@ -137,8 +137,8 @@
                 "direccion": "Av. Principal 678, Ciudad.",
                 "telefono": "+54 11 5678-9012",
                 "pacientes": [
-                    {"nombre": "Laura Fernández", "edad": 30, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-23", "motivo": "Chequeo general"},
-                    {"nombre": "Sofía Morales", "edad": 45, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-19", "motivo": "Control de diabetes"}
+                    {"nombre": "Laura Fernández", "edad": 30, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-23"},
+                    {"nombre": "Sofía Morales", "edad": 45, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-19"}
                 ],
                 "evaluaciones": [
                     {
@@ -183,8 +183,8 @@
                 "direccion": "Av. de Mayo 1010, Ciudad.",
                 "telefono": "+54 11 4567-8901",
                 "pacientes": [
-                    {"nombre": "Denise", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22", "motivo": "Gripe"},
-                    {"nombre": "Roberto Díaz", "edad": 38, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20", "motivo": "Chequeo general"}
+                    {"nombre": "Maria Lopez", "edad": 28, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-22"},
+                    {"nombre": "Roberto Díaz", "edad": 38, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-20"}
                 ],
                 "evaluaciones": [
                     {
@@ -224,8 +224,8 @@
                 "direccion": "Calle Ejemplo 123, Ciudad.",
                 "telefono": "+54 11 6789-0123",
                 "pacientes": [
-                    {"nombre": "Victoria Cruz", "edad": 35, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-23", "motivo": "Consulta médica"},
-                    {"nombre": "María Juárez", "edad": 60, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21", "motivo": "Chequeo de rutina"}
+                    {"nombre": "Victoria Cruz", "edad": 35, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-23"},
+                    {"nombre": "María Juárez", "edad": 60, "mail": "mail@gmail.com", "fechaConsulta": "2024-10-21"}
                 ],
                 "evaluaciones": [
 
